@@ -73,21 +73,21 @@ export const projects = [
   {
     name: "Visualization Literacy in United States Classrooms: A Qualitative Analysis of State K–12 Learning Standards",
     skills: "Qualitative Analysis, Data Visualization, Python, Excel",
-    image: "../pictures/Weppler_RA_Poster.png",
+    image: "./pictures/Weppler_RA_Poster.png",
     description:
       "This research analyzes STEM education standards from U.S. states to understand how visualization literacy — the ability to interpret graphical data — is taught in K–12 schools. By extracting and thematically analyzing over 5,000 visualization-related standards from 20 states, the work aims to build a framework describing how these skills develop across grade levels.",
   },
   {
     name: "Sparse Sensor Placement for Dissolved Oxygen Monitoring in the Gulf of Mexico Using Genetic Algorithms",
     skills: "Ridge Regression, Genetic Algorithms, Data Imputation",
-    image: "../pictures/CS5100_Final.png",
+    image: "./pictures/CS5100_Final.png",
     description:
       "This project tackles the problem of where to place a limited number of dissolved oxygen sensors in the Gulf of Mexico to best reconstruct water quality across the broader region. Using a genetic algorithm on real GCOOS observational data, the optimized sensor placements outperformed random placement by 33–56% in reconstruction RMSE across two spatial resolutions and six sensor budget levels.",
   },
   {
     name: "Stockholm Environment Institute Policy Research Add-in for Excel",
     skills: "Azure SQL, React, Excel",
-    image: "../pictures/excel-pull.png",
+    image: "./pictures/excel-pull.png",
     description:
       "As part of my internship at SEI, I modernized a large research database previously maintained in a shared Excel workbook by migrating it to an Azure SQL backend with a hybrid relational/EAV schema, enabling capabilities beyond Excel and improving cloud-based storage and synchronization. I then built a custom Excel Add-In for internal use at SEI that runs SQL queries to retrieve and update records directly from Excel, with version tracking to help resolve changes and prevent data loss.",
   },
