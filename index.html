@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="author" content="Julia Weppler" />
+    <meta
+      name="description"
+      content="Personal portfolio of Julia Weppler, MSCS student at Northeastern University."
+    />
+
+    <title>Julia Weppler's Portfolio</title>
+
+    <link rel="icon" href="./pictures/noun-dinosaur-7506092-468128.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link href="./css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main class="container page-container py-5">
+      <section class="text-center mb-4">
+        <h1 class="fw-bold display-5 mb-3">Julia Weppler</h1>
+        <div class="avatar mb-2">
+          <img src="./pictures/profile.png" alt="Profile photo" />
+        </div>
+        <p class="mt-2 mb-1">
+          <a
+            href="https://www.linkedin.com/in/julia-weppler-022561277/"
+            target="_blank"
+            rel="noopener"
+            >LinkedIn</a
+          >
+        </p>
+        <p class="text-muted mb-0">Web Development Summer 2026</p>
+      </section>
+      <nav class="d-flex justify-content-center gap-2 mb-4">
+        <a href="./index.html" class="nav-pill active">Home</a>
+        <a href="./projects.html" class="nav-pill">Projects</a>
+        <a href="./career.html" class="nav-pill">Career</a>
+      </nav>
+      <div id="board" class="board-grid"></div>
+      <div class="text-center mb-4">
+        <button id="shuffle-btn" class="btn btn-outline-dark btn-sm">
+          Shuffle cards
+        </button>
+      </div>
+    </main>
+
+    <script type="module" src="./js/home.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

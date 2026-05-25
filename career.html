@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="author" content="Julia Weppler" />
+    <meta
+      name="description"
+      content="Timeline Page of personal portfolio of Julia Weppler."
+    />
+
+    <title>Julia Weppler's Portfolio</title>
+
+    <link rel="icon" href="./pictures/noun-dinosaur-7506092-468128.png" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link href="./css/main.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main class="container page-container py-5">
+      <section class="text-center mb-4">
+        <h1 class="fw-bold display-5 mb-3">Julia Weppler</h1>
+        <div class="avatar mb-2">
+          <img src="./pictures/profile.png" alt="Profile photo" />
+        </div>
+        <p class="mt-2 mb-1">
+          <a
+            href="https://www.linkedin.com/in/julia-weppler-022561277/"
+            target="_blank"
+            rel="noopener"
+            >LinkedIn</a
+          >
+        </p>
+        <p class="text-muted mb-0">Web Development Summer 2026</p>
+      </section>
+      <nav class="d-flex justify-content-center gap-2 mb-4">
+        <a href="./index.html" class="nav-pill">Home</a>
+        <a href="./projects.html" class="nav-pill">Projects</a>
+        <a href="./career.html" class="nav-pill active">Career</a>
+      </nav>
+      <div id="timeline"></div>
+      <details class="mt-5">
+        <summary class="btn btn-outline-primary">AI Disclosure</summary>
+
+        <div class="card card-body mt-3">
+          <p>
+            Per the assignment specifications, generative AI was used to create
+            this page, but was modified slightly to my personal taste. It was
+            originally created with GPT-5.4 mini.
+          </p>
+
+          <p class="fw-bold mb-2">Prompt used:</p>
+          <pre
+            class="bg-light p-3 rounded small mb-0"
+          ><code>You are helping me build out the Career page of my personal portfolio website. I need you to make ONLY the changes I describe. Do not redesign other pages, restructure my files, or add features I didn't ask for.
+
+## Tech constraints (strict)
+- Vanilla JavaScript with ES6 modules only
+- Bootstrap 5 for layout and utilities where possible
+- NO additional JavaScript libraries, plugins, or templates
+- NO inline styles (style="...") in HTML or in JS template strings
+- Custom CSS only where Bootstrap can't do what is needed
+
+## What I want
+A horizontal, scrollable timeline rendered into the existing #timeline div on career.html.
+
+Layout requirements:
+- All milestones laid out in a single horizontal row, left to right, oldest to newest
+- Container scrolls horizontally when content exceeds the viewport width
+- Each milestone should have:
+  - A date label (use the displayDate field)
+  - A dot or marker sitting on a horizontal connecting line that spans the full timeline
+  - A short title (use the title field)
+  - An "extra info" detail (use the hover field) that is HIDDEN by default
+
+Hover behavior:
+- On hover over a milestone, the milestone expands to reveal the hover detail
+- The expansion should feel smooth but I do NOT want fade/slide animations on the rest of the page, only the hover reveal itself
+- Other milestones should not shift around dramatically when one is hovered (some shift is okay)
+
+Responsiveness:
+- The horizontal scroll behavior should work on desktop and mobile
+- On very narrow screens, the horizontal layout can stay horizontal — do not collapse to vertical
+
+## What to deliver
+1. The updated career.js (full file)
+2. Any new CSS rules to add to my existing styles.css (just the new additions, clearly marked)
+3. Any needed changes to career.html (just the diff, not the full file)
+
+## What NOT to do
+- Don't touch index.html, projects.html, home.js, projects.js, or data.js
+- Don't add npm, build steps, or package.json
+- Don't introduce new HTML files
+- Don't rename or restructure existing classes
+- Don't add a "back to top" button, navigation arrows, scroll indicators, or any feature I didn't ask for</code></pre>
+        </div>
+      </details>
+    </main>
+    <script type="module" src="./js/career.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
