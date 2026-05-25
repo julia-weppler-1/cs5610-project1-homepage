@@ -10,6 +10,8 @@ GitHub Page: https://julia-weppler-1.github.io/cs5610-project1-homepage/
 
 ![Portfolio career page](./pictures/screenshot3.png)
 
+## Demo
+Watch my demo [here](https://youtu.be/FyQi3lPNgOc)
 ## Assignment Description
 Per the assignment description on Canvas: "In this assignment you will be implementing your homepage using vanilla HTML5, CSS3 and ES6+. This should be a front-end only static page, so you shouldn't be using a backend or any components libraries. You cannot use jQuery, and all you JS code must be in ES6 modules. 
 
