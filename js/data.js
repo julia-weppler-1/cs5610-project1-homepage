@@ -1,3 +1,4 @@
+// Feedback 1: Same thing as previously stated in your other .js files. Consider adding JavaScript documentation to the tasks being performed here for readability and understandability of your great event handling feature!
 export const homeItems = [
   { title: "Hello!", body: "Welcome to my home page.", color: "#E8E8E4" },
   {
