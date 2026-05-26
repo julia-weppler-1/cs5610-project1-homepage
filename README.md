@@ -1,4 +1,5 @@
 # cs5610-project1-homepage
+=> Feedback 1: I would consider changing the project name for your README.md file and repo so that it can be more descriptive and meaningful to highlight your great project! Very minor fix rather than having "CS5610" in the title :).
 This is my homepage listing my skills, courses, projects, and more for CS5610 Summer 2026. It features a Pinterest-style home board, a projects showcase, and a horizontally-scrollable career timeline.
 
 GitHub Page: https://julia-weppler-1.github.io/cs5610-project1-homepage/
@@ -16,6 +17,7 @@ Watch my demo [here](https://youtu.be/FyQi3lPNgOc)
 Per the assignment description on Canvas: "In this assignment you will be implementing your homepage using vanilla HTML5, CSS3 and ES6+. This should be a front-end only static page, so you shouldn't be using a backend or any components libraries. You cannot use jQuery, and all you JS code must be in ES6 modules. 
 
 Also, remember that you need to provide a creative addition to your page, something that will differentiate it from every other page. It can be implemented using ES6+ or HTML+CSS alone if you wish. e.g. My homepage has a honeycomb grid of project images, where each image is a link that takes you to the project."
+=> Feedback 2: Instead of directly quoting the project description from Canvas for Project 1, I would consider coming up with your own so that it highlights the main purpose of the assignment in order to achieve writing strong README.md project descriptions regarding the required conventions and practices. You can always paraphrae some aspects of the description in a way that is custom tailored to your voice! Also, very minor, but I would consider moving your project description to the first section of your readme file after the good project name. 
 
 ## Objective
 - Practice ES6, HTML, and CSS/Bootstrap
@@ -126,5 +128,8 @@ After the AI-generated code was produced, I made small refinements to better mat
 - Recentered the date label above the dot
 - Changed the marker color from blue to a muted gray to match the rest of the site
 
+Feedback 3: Great AI usage descriptions and prompt! I also like the additional "modifications made after generation" section. Your query was solid and informative.  
+
 ## Author
 Julia Weppler
+=> Feedback 4: I just noticed that you're missing the link to your homepage here.
