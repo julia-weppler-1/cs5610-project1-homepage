@@ -1,5 +1,5 @@
 import { timeline } from "./data.js";
-
+// Feedback 1: Consider adding JavaScript comments/documentation to the tasks being performed here for readability and understandability of your great event handling feature!
 const container = document.getElementById("timeline");
 
 container.innerHTML = `
