@@ -3,6 +3,8 @@ import { homeItems } from "./data.js";
 const board = document.getElementById("board");
 const shuffleBtn = document.getElementById("shuffle-btn");
 
+// Great use of rest parameters here! Same feedback as before in the previous .js files. Consider adding JavaScript comments to the tasks being performed here. 
+// Otherwise, this is a great feature that you created for your home page! I now understand what was going on under the hood of your great creative addition feature.
 function shuffle(array) {
   return [...array].sort(() => Math.random() - 0.5);
 }
