@@ -1,7 +1,10 @@
 import { projects } from "./data.js";
+// Same thing here, I would consider adding JavaScript comments to improve readability and understandability of your event handling tasks.
 
+// Initialize grid element
 const grid = document.getElementById("projects-grid");
 
+// Peforming operation 1 ... etc.
 grid.innerHTML = projects
   .map(
     (p) => `
@@ -18,6 +21,7 @@ grid.innerHTML = projects
   )
   .join("");
 
+// Performing operation 2 ... etc.
 grid.addEventListener("click", (event) => {
   const img = event.target.closest(".project-image img");
   if (!img) return;
@@ -29,6 +33,7 @@ grid.addEventListener("click", (event) => {
   document.body.append(overlay);
 });
 
+// Performing operation 3 ... etc.
 document.addEventListener("keydown", (event) => {
   if (event.key !== "Escape") return;
   document.querySelector(".image-overlay")?.remove();
