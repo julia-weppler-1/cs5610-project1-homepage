@@ -9,6 +9,7 @@
 A personal portfolio site built without a framework, using only ES6 modules and Bootstrap. The site has three pages: a Pinterest-board-style home page, a projects showcase, and an AI-generated career timeline. Navigation between pages happens client-side via a pill-style nav, with no page reloads.
 
 ## User Personas
+=> Feedback 1: Great User Personas! An enhancement tip I would add is to have more descriptors fields for the user personas such as demography, frustrations or pain points, behaviors, and environment. Goals and needs are 100% spot on. For more information about the structure of user personas, visit this article for reference under the section 'These are 7 things that must exist on a persona': https://medium.com/inside-ppl-b7/four-main-keys-of-persona-in-software-development-d4df627aeb96  
 
 ### Persona 1: Professor and Teaching Assistants
 
@@ -26,6 +27,7 @@ A personal portfolio site built without a framework, using only ES6 modules and 
 - **Needs:** A predictable project structure following patterns and principles used in class.
 
 ## 3. User Stories
+=> Feedback 2: Great job on your user stories! You applied the universal template very well in this section regarding the structure of your user stories.
 
 ### Professor and TAs
 
@@ -44,7 +46,7 @@ A personal portfolio site built without a framework, using only ES6 modules and 
 - As a peer, I want to leave a critique on a specific component, so that the author can improve it.
 
 ## 4. Design Mockups
-
+=> Feedback 3: This is a very unique way to customize and create design mockups! I like the way you did them. I may apply this to my design mockups next time!
 ### Page 1: Home (Pinterest Board)
 
 The landing page mimics a Pinterest board and displays quick facts and information about me. Cards vary in height to create the Pinterest staggered look. 
