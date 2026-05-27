@@ -17,6 +17,12 @@ function renderBoard(items) {
           </div>
         `;
       }
+      if (item.type === "link") {
+        return `<div class="card p-3" style="background: ${item.color ?? '#e9e9ec'}; border: 0;">
+          <h5 class="card-title mb-2">${item.title}</h5>
+          <p class="card-text text-muted small mb-0"><a href="${item.href}">${item.body}</a></p>
+        </div>`;
+      }
       return `
         <div class="card p-3" style="background: ${item.color ?? '#e9e9ec'}; border: 0;">
           <h5 class="card-title mb-2">${item.title}</h5>

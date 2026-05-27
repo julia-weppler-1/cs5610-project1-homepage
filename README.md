@@ -35,15 +35,23 @@ Also, remember that you need to provide a creative addition to your page, someth
 This project uses ESLint for linting and `reload` for serving the site locally with live-reload. Both are installed via npm.
 
 1. Make sure you have Node.js installed.
-2. Install ESLint globally:
+2. Open a CLI, clone, and navigate to the repo:
 ```bash
-   npm install -g eslint
+   git clone https://github.com/julia-weppler-1/cs5610-project1-homepage.git && cd cs5610-project1-homepage
 ```
-3. Install `reload` globally:
+3. Install dev dependencies eslint and eslint-prettier-plugin:
+```bash
+   npm install
+```
+4. Install `reload` globally:
 ```bash
    npm install -g reload
 ```
-
+5. Run the site in your browser using reload:
+```bash
+   reload -b
+```
+ 
 ## Pages
 - **Home** — Pinterest-inspired board with text cards and embedded photos
 - **Projects** — 3-column grid of project entries with click-to-expand thumbnails
