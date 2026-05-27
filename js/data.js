@@ -25,7 +25,7 @@ export const homeItems = [
     body: "Boston College, Northeastern University",
     color: "#FEC5BB",
   },
-  { title: "GitHub", body: "julia-weppler-1", color: "#f8edeb" },
+  { type: "link", title: "GitHub", href: "https://github.com/julia-weppler-1", body: "julia-weppler-1", color: "#f8edeb" },
   {
     type: "image",
     src: "./pictures/graduation.png",
@@ -37,7 +37,9 @@ export const homeItems = [
     color: "#ffe5d9",
   },
   {
+    type: "link",
     title: "Get in touch",
+    href: "mailto:weppler.j@northeastern.edu",
     body: "weppler.j@northeastern.edu",
     color: "#fae1dd",
   },
