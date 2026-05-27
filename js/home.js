@@ -11,6 +11,13 @@ function renderBoard(items) {
   board.innerHTML = items
     .map((item) => {
       if (item.type === "image") {
+        /**
+         * Suggestion: add the alt text description as a visible 
+         * html element (in addition to the alt text attribute, not replacing) 
+         * so that users can see the description of each of the images. 
+         * Perhaps it appears when user hovers over the image 
+         * or always visible as a static footer on the image.
+         */
         return `
           <div class="card home-image-card">
             <img src="${item.src}" alt="${item.alt ?? ""}">
